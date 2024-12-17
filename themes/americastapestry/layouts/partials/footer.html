@@ -1,0 +1,5 @@
+{{ with .Params.hide_footer }}
+<!-- No footer here! -->
+{{ else }}
+<footer>&copy; {{ .Site.Params.name }} {{ now.Year }}</footer>
+{{ end }}

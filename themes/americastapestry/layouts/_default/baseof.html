@@ -1,0 +1,15 @@
+<!doctype html>
+<html class="font-serif">
+    <head>
+        <meta charset="utf-8" />
+        <title>{{ .Page.Title }}</title>
+        {{ $style := resources.Get "css/output.css" }}
+        <link rel="stylesheet" href="{{ $style.Permalink }}" />
+    </head>
+
+    <body>
+        {{ block "main" . }} {{ end }}
+    </body>
+
+    {{ partial "footer.html" . }}
+</html>
