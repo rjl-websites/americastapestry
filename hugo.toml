@@ -3,6 +3,7 @@ languageCode = 'en-us'
 title = "America's Tapestry"
 theme = 'americastapestry'
 copyright = "Stefan Romero Design 2025"
+cleanDestinationDir = true
 
 [params]
 name = 'Stefan Romero Design'

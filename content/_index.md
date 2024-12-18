@@ -1,6 +1,4 @@
 ---
-title: Home!
+title: America's Tapestry
 layout: home
 ---
-
-Hello, this is America's Tapestry home page!

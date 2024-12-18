@@ -2,6 +2,6 @@
 title: About
 ---
 
-About America's Tapestry.
+About America's Tapestry!
 
-### These are my favorite vacation spots
+### These are my favorite vacation spots you see

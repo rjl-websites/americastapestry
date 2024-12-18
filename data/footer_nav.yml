@@ -1,0 +1,10 @@
+tapestry:
+  - name: About
+    url: /about
+  - name: Blog
+    url: /blog
+  - name: Press
+    url: /press
+legal:
+  - name: Privacy Policy
+    url: /privacy-policy
