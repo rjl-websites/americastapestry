@@ -5,14 +5,17 @@ main:
   - name: Team
     url: /sewing-groups
 
+  - name: Tapestries
+    url: /tapestries
+
   - name: Blog
     url: /blog
 
-  - name: Contact
-    url: /contact
-
   - name: Calendar
     url: /calendar
+
+  - name: Contact
+    url: /contact
 
   - name: About
     url: /about
