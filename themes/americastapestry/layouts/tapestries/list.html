@@ -1,0 +1,20 @@
+{{ define "main" }} LAYOUT: TAPESTRIES LIST
+<div class="px-14 pt-20 pb-40">
+    <h1 class="text-4xl font-bold pb-8">{{ .Title }}</h1>
+
+    <div class="prose prose-2xl pb-8">{{ .Content }}</div>
+
+    <h2 class="text-2xl font-bold pt-10">Tapestries</h2>
+    <ul>
+        {{ range sort .Site.Data.tapestries "state" }}
+
+        <li>
+            <a href="{{ urlize .name }}" class="text-2xl text-blue-800"
+                >{{ .state }} <span aria-hidden="true">→</span></a
+            >
+        </li>
+
+        {{ end }}
+    </ul>
+</div>
+{{ end }}

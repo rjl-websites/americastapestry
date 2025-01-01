@@ -3,7 +3,7 @@ main:
     url: /
 
   - name: Team
-    url: /sewing-groups
+    url: /team
 
   - name: Tapestries
     url: /tapestries

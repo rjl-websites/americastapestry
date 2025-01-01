@@ -1,0 +1,40 @@
+{{ define "main" }} LAYOUT: TEAM LIST
+<div class="px-14 pt-20 pb-40">
+    <h1 class="text-4xl font-bold pb-8">{{ .Title }}</h1>
+
+    <div class="prose prose-2xl pb-8">{{ .Content }}</div>
+
+    <h2 class="text-2xl font-bold pt-10">Our Collaborators</h2>
+    <ul>
+        {{ $collaborators := .Site.GetPage "section" "team/collaborators" }} {{
+        range $collaborators.Pages}}
+
+        <li>
+            <a
+                href="collaborators/{{ urlize .Title }}"
+                class="text-2xl text-blue-800"
+                >{{ .Title }} <span aria-hidden="true">→</span></a
+            >
+        </li>
+
+        {{ end }}
+    </ul>
+
+    <h2 class="text-2xl font-bold pt-10">Our Stitchers</h2>
+    <ul>
+        {{ $stitchers := .Site.GetPage "section" "team/stitchers" }} {{ range
+        sort $stitchers.Pages }}
+        <li>
+            <a
+                href="stitchers/{{ urlize .Title }}"
+                class="text-2xl text-blue-800"
+                >{{ .Title }}, {{ .Params.state }}<span aria-hidden="true"
+                    >→</span
+                ></a
+            >
+        </li>
+        {{ end }}
+    </ul>
+</div>
+
+{{ end }}
