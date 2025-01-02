@@ -1,20 +1,26 @@
-{{ define "main" }} LAYOUT: TAPESTRIES LIST
-<div class="px-14 pt-20 pb-40">
-    <h1 class="text-4xl font-bold pb-8">{{ .Title }}</h1>
+{{ define "main" }} 
 
-    <div class="prose prose-2xl pb-8">{{ .Content }}</div>
+{{ $tapestries := where .Pages "Section" "tapestries" }}
 
-    <h2 class="text-2xl font-bold pt-10">Tapestries</h2>
-    <ul>
-        {{ range sort .Site.Data.tapestries "state" }}
 
-        <li>
-            <a href="{{ urlize .name }}" class="text-2xl text-blue-800"
-                >{{ .state }} <span aria-hidden="true">→</span></a
-            >
-        </li>
+<div class="pt-20 pb-40 px-14">
+    <h1 class="pb-8 text-4xl font-bold">{{ .Title }}</h1>
+
+    <div class="pb-8 italic prose prose-2xl">{{ .Content }}</div>
+
+
+    <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+        {{ range $tapestries }}
+
+        <a href="{{ .Permalink }}" class="relative overflow-hidden transition-shadow duration-300 rounded-lg shadow-md aspect-square hover:shadow-xl">
+            <div class="absolute inset-0 bg-center bg-cover" style="background-image: url('{{ .Params.thumbnail}}');"></div>
+            <div class="absolute bottom-0 right-0 p-4 bg-black bg-opacity-50">
+              <p class="font-semibold text-white">{{ .Title }}</p>
+            </div>
+          </a>
 
         {{ end }}
-    </ul>
+    </div>
 </div>
+
 {{ end }}

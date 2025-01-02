@@ -3,9 +3,27 @@
 <div class="pt-20 pb-40 px-14">
     <h1 class="pb-8 text-4xl font-bold">{{ .Title }}</h1>
     <div class="pb-8 italic prose prose-2xl">{{ .Content }}</div>
+    
     {{ partial "team/stefan" }}
-    {{ partial "team/team-list" (dict "section" "team/collaborators" "title" "Our Collaborators" "Site" .Site) }}
-    {{ partial "team/team-list" (dict "section" "team/stitchers" "title" "Our Stitchers" "Site" .Site) }}
+
+    <div class="pt-10">
+        <a href="{{ ref . "/team/leaders" }}" 
+           class="text-3xl text-blue-800">
+           Meet the rest of our Tapestry Leaders <span aria-hidden="true">→</span></a>
+    </div>
+
+    <div class="pt-10">
+        <a href="{{ ref . "/team/stitchers" }}" 
+           class="text-3xl text-blue-800">
+           Meet our Stitchers <span aria-hidden="true">→</span></a>
+    </div>
+
+    <div class="pt-10">
+        <a href="{{ ref . "/team/collaborators" }}" 
+           class="text-3xl text-blue-800">
+           Meet our Collaborators <span aria-hidden="true">→</span></a>
+    </div>
+    
 </div>
 
 {{ end }}

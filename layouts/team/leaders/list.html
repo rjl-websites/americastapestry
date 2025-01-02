@@ -1,0 +1,34 @@
+{{ define "main" }} 
+
+{{ $leaders := .Site.GetPage "section" "team/leaders" }}
+
+<div class="pt-20 pb-40 px-14">
+
+    <h1 class="pb-8 text-4xl font-bold">{{ .Title }}</h1>
+    <div class="pb-8 italic prose prose-2xl">{{ .Content }}</div>
+
+    {{ range $leaders.Pages }}
+    
+    <div>
+        <h2 class="text-3xl font-bold drop-shadow-md">Meet {{ .Params.informal }}.</h2>
+        <div class="pt-2 pb-6 text-3xl italic">{{ .Params.state }}</div>
+
+        <div class="pb-20">
+            <img
+                class="float-left pt-3 pr-6 max-w-96 max-h-96"
+                src="{{ .Params.picture}} "
+                alt="{{ .Title }}"
+            />
+
+            <div class="prose prose-2xl">
+                {{ .Content }}
+            </div>
+        </div>
+    </div>
+
+    
+    {{ end }}
+
+</div>
+
+{{ end}}

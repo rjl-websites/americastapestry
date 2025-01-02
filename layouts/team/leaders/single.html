@@ -1,0 +1,24 @@
+{{ define "main" }} 
+
+{{ $groupName := .Params.group }} 
+<div class="pt-20 pb-40 px-14">
+    <div>
+        <div class="pb-10 text-3xl text-slate-400">Our Leaders</div>
+        <h1 class="text-4xl font-bold drop-shadow-md">Meet {{ .Params.informal }}.</h1>
+        <div class="pt-2 pb-8 text-3xl italic">{{ .Params.state }}</div>
+
+        <div class="pb-36">
+            <img
+                class="float-right pt-3 pl-10 h-72"
+                src="{{ .Params.picture}} "
+                alt="{{ .Title }}"
+            />
+
+            <div class="prose prose-2xl">
+                {{ .Content }}
+            </div>
+        </div>
+    </div>
+</div>
+
+{{ end }}

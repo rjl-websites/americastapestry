@@ -1,1 +1,32 @@
-{{ define "main" }} LAYOUT: TEAM/STITCHERS LIST {{ end }}
+{{ define "main" }}
+
+{{ $stitchers := .Site.GetPage "section" "team/stitchers" }}
+
+<div class="pt-20 pb-40 px-14">
+
+    <h1 class="pb-8 text-4xl font-bold">{{ .Title }}</h1>
+    <div class="pb-8 italic prose prose-2xl">{{ .Content }}</div>
+
+    {{ range $stitchers.Pages }}
+
+    <div class="pb-4">
+        <h2 class="text-3xl font-bold drop-shadow-md">{{ .Title }}</h2>
+        <div class="pt-2 text-3xl italic">{{ .Params.state }}</div>
+        
+        <div class="pb-8 prose prose-2xl">
+            {{ .Content }}
+        </div>
+
+        <div class="text-2xl italic">
+            More information: <a href="{{ .Params.website}}" class="text-blue-800" alt="{{ .Title }}">{{ .Params.website}} <span aria-hidden="true">→</span></a> 
+        </div>
+
+        <hr class="my-10 border-t border-gray-300">
+    </div>
+
+
+    {{ end }}
+</div>
+
+
+{{ end }}

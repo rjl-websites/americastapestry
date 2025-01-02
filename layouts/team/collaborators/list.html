@@ -1,0 +1,41 @@
+{{ define "main" }} 
+
+{{ $collaborators := .Site.GetPage "section" "team/collaborators" }}
+
+<div class="pt-20 pb-40 px-14">
+
+    <h1 class="pb-8 text-4xl font-bold">{{ .Title }}</h1>
+    <div class="pb-8 italic prose prose-2xl">{{ .Content }}</div>
+
+    {{ range $collaborators.Pages }}
+
+    <div>
+        <h2 class="text-3xl font-bold drop-shadow-md">{{ .Title }}</h2>
+        <div class="pt-2 pb-6 text-3xl italic">{{ .Params.state }}</div>
+
+        <div class="pb-10 prose prose-2xl">
+            <img
+                class="w-full h-auto pr-6 mb-0 drop-shadow-lg"
+                src="{{ .Params.picture}} "
+                alt="{{ .Title }}"
+            />
+            
+            {{ .Content }}
+
+            <div class="text-2xl italic">
+                More information: <a href="{{ .Params.website}}" class="text-blue-800" alt="{{ .Title }}">{{ .Params.website}} <span aria-hidden="true">→</span></a> 
+            </div>
+
+            <hr class="mt-20 border-t border-gray-300">
+
+        </div>
+
+    </div>
+
+
+    {{ end }}
+
+
+</div>
+
+{{ end }}

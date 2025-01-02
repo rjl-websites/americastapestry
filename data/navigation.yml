@@ -8,11 +8,11 @@ main:
   - name: Tapestries
     url: /tapestries
 
-  - name: Blog
-    url: /blog
-
   - name: Calendar
     url: /calendar
+
+  - name: Blog
+    url: /blog  
 
   - name: Contact
     url: /contact

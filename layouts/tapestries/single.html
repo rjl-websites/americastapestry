@@ -1,6 +1,18 @@
 {{ define "main" }}
-<div class="px-14 pt-20 pb-40">
-    <h1 class="text-4xl font-bold pb-8">{{ .Title }}</h1>
-    <div class="prose prose-2xl pb-8">{{ .Content }}</div>
+<div class="pt-20 pb-20 px-14">
+    <h1 class="pb-8 text-4xl font-bold">{{ .Title }} Tapestry</h1>
+
+    <div class="pb-8 text-4xl italic">
+        <p>{{ .Params.summary }}</p>
+    </div>
+
+    <div class="pb-10 prose prose-2xl">
+        
+        {{ .Content }}
+
+        <hr class="mt-20 border-t border-gray-300">
+
+    </div>
+
 </div>
 {{ end }}
