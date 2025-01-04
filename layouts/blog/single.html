@@ -1,0 +1,18 @@
+{{ define "main" }}
+
+<div class="pt-20 pb-20 px-14">
+
+    <div class="pb-10 text-3xl text-slate-500 bold">Blog posting</div>
+    
+    <div class="pb-2 text-2xl text-slate-500">{{ .Date.Format "January 2, 2006" }}</div>
+    <h1 class="pb-12 text-4xl font-bold">{{ .Params.Title }}</h1>
+    
+    <div class="prose prose-2xl">
+        <div class="pb-3 text-4xl italic">{{ .Params.summary }}.</div>
+
+        {{ .Content }} 
+    </div>
+
+</div>
+
+{{ end }}
