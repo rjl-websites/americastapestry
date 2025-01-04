@@ -1769,12 +1769,16 @@ html {
   padding-bottom: 2rem;
 }
 
-.pb-1{
-  padding-bottom: 0.25rem;
-}
-
 .pb-10{
   padding-bottom: 2.5rem;
+}
+
+.pb-12{
+  padding-bottom: 3rem;
+}
+
+.pb-2{
+  padding-bottom: 0.5rem;
 }
 
 .pb-20{
@@ -1847,14 +1851,6 @@ html {
 
 .pt-8{
   padding-top: 2rem;
-}
-
-.pb-2{
-  padding-bottom: 0.5rem;
-}
-
-.pb-12{
-  padding-bottom: 3rem;
 }
 
 .font-serif{

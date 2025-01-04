@@ -1,13 +1,13 @@
 {{ define "main" }} 
 
-{{ $leaders := .Site.GetPage "section" "team/leaders" }}
+{{ $directors := .Site.GetPage "section" "team/state-directors" }}
 
 <div class="pt-20 pb-40 px-14">
 
     <h1 class="pb-8 text-4xl font-bold">{{ .Title }}</h1>
     <div class="pb-8 italic prose prose-2xl">{{ .Content }}</div>
 
-    {{ range $leaders.Pages }}
+    {{ range $directors.Pages }}
     
     <div>
         <h2 class="text-3xl font-bold drop-shadow-md">Meet {{ .Params.informal }}.</h2>

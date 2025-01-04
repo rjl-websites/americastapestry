@@ -1,13 +1,13 @@
 {{ define "main" }} 
 
-{{ $collaborators := .Site.GetPage "section" "team/collaborators" }}
+{{ $partners := .Site.GetPage "section" "team/historical-partners" }}
 
 <div class="pt-20 pb-40 px-14">
 
     <h1 class="pb-8 text-4xl font-bold">{{ .Title }}</h1>
     <div class="pb-8 italic prose prose-2xl">{{ .Content }}</div>
 
-    {{ range $collaborators.Pages }}
+    {{ range $partners.Pages }}
 
     <div>
         <h2 class="text-3xl font-bold drop-shadow-md">{{ .Title }}</h2>
