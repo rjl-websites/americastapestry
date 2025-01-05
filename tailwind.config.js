@@ -13,6 +13,7 @@ module.exports = {
     extend: {
       fontFamily: {
         serif: ['"EB Garamond"', ...defaultTheme.fontFamily.serif],
+        sans: ["Lato", ...defaultTheme.fontFamily.sans],
       },
       typography: (theme) => ({
         "2xl": {
