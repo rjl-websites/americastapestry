@@ -14,12 +14,12 @@
             
             <div class="flex justify-center w-full mb-4 md:w-1/3 md:mb-0">
               {{ with .Params.logo }}
-                <img src="{{ . }}" alt="{{ $.Title }}" class="w-auto h-auto rounded-lg max-h-24">
+                <img src="{{ . }}" alt="{{ $.Title }}" class="h-auto rounded-lg max-w-48">
               {{ end }}
             </div>
             
             <div class="w-full md:w-2/3 md:pl-8">
-              <h2 class="mb-4 text-3xl font-bold">{{ .Title }}</h2>
+              <h2 class="mb-4 text-3xl font-bold">Meet {{ .Title }} &mdash; Our {{ .Params.role}}</h2>
               <div class="text-2xl prose">
                 {{ .Content }}
               </div>

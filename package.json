@@ -5,7 +5,7 @@
   "scripts": {
     "build-tw": "npx tailwindcss -i ./assets/css/input.css -o ./assets/css/output.css",
     "watch-tw": "npx tailwindcss -i ./assets/css/main.css -o ./assets/css/style.css -w --minify",
-    "start": "hugo server --disableFastRender & npx tailwindcss -i ./assets/css/input.css -o ./assets/css/output.css --watch"
+    "start": "hugo server & npx tailwindcss -i ./assets/css/input.css -o ./assets/css/output.css --watch"
   },
   "keywords": [],
   "author": "",

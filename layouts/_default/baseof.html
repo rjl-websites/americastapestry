@@ -14,5 +14,7 @@
             {{ partial "navbar.html" . }}
         </header>
         {{ block "main" . }} {{ end }} {{ partial "footer.html" . }}
+        {{ $mobileMenu := resources.Get "js/mobileMenu.js" | minify | fingerprint }}
+        <script src="{{ $mobileMenu.RelPermalink }}" integrity="{{ $mobileMenu.Data.Integrity }}"></script>
     </body>
 </html>

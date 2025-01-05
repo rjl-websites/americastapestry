@@ -1,9 +1,38 @@
 {{ define "main" }} 
 
 {{ partial "home/hero-full-flag" . }} 
-{{ partial "home/about" . }} 
-{{ partial "home/how" . }} 
-{{ partial "home/partners" . }} 
+
+{{ partial "home/image-text-section" (dict
+  "Side" "left"
+  "Background" "dark"
+  "ID" "about"
+  "ImageSrc" "/images/soldier.png"
+  "ImageAlt" "A soldier"
+  "Title" "Telling our nation's story"
+  "Content" .Params.section1
+) }}
+
+{{ partial "home/image-text-section" (dict
+  "Side" "right"
+  "Background" "light"
+  "ID" "collaboration"
+  "ImageSrc" "/images/cannon-woman.png"
+  "ImageAlt" "A woman with a cannon"
+  "Title" "A collaborative journey"
+  "Content" .Params.section2
+) }}
+
+{{ partial "home/image-text-section" (dict
+  "Side" "left"
+  "Background" "dark"
+  "ID" "collaboration"
+  "ImageSrc" "/images/colonies.png"
+  "ImageAlt" "Map of the 13 colonies"
+  "Title" "A creative partnership"
+  "Content" .Params.section3
+) }}
+
+
 {{ partial "home/blog" . }} 
 {{ partial "home/sponsors" . }}
 
