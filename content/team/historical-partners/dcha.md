@@ -1,7 +1,7 @@
 ---
 title: Passaic County Department of Historic and Cultural Affairs
 state: New Jersey
-picture: /images/collaborators/passaic-county.png
+picture: /images/historical-partners/day-mansion.jpeg
 website: https://seepassaiccounty.org
 type: "team/collaborators"
 ---

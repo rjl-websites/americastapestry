@@ -1628,6 +1628,10 @@ html {
   border-radius: 0.75rem;
 }
 
+.border-4{
+  border-width: 4px;
+}
+
 .border-b{
   border-bottom-width: 1px;
 }
@@ -1648,6 +1652,11 @@ html {
 .border-gray-300{
   --tw-border-opacity: 1;
   border-color: rgb(209 213 219 / var(--tw-border-opacity, 1));
+}
+
+.border-gray-800{
+  --tw-border-opacity: 1;
+  border-color: rgb(31 41 55 / var(--tw-border-opacity, 1));
 }
 
 .border-orange-800{
@@ -1915,6 +1924,10 @@ html {
 
 .italic{
   font-style: italic;
+}
+
+.leading-loose{
+  line-height: 2;
 }
 
 .tracking-tight{

@@ -2,14 +2,17 @@ main:
   - name: Home
     url: /
 
-  - name: Team
-    url: /team
-
   - name: Tapestries
     url: /tapestries
 
-  - name: Calendar
-    url: /calendar
+  - name: Team
+    url: /team
+
+  - name: Sponsors
+    url: /sponsors  
+
+  - name: Exhibition
+    url: /exhibition
 
   - name: Blog
     url: /blog  

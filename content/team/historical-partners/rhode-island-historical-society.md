@@ -1,7 +1,7 @@
 ---
 title: Rhode Island Historical Society
 state: Rhode Island
-picture: /images/collaborators/rhode-island-historical-society.jpeg
+picture: /images/historical-partners/rhode-island-historical-society.jpeg
 website: https://www.rihs.org
 type: "team/collaborators"
 ---

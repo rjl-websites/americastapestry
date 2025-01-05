@@ -12,4 +12,4 @@ She first visited the Bayeux tapestry in 1976 and completed a reproduction of th
 
 In addition to providing the means to create both useful and decorative pieces, for oneself or as gifts, Carol also believes in the power of needlework to fully relax the stitcher, due to the intense concentration and total immersion it entails. This seldom-mentioned by-product of needlework is particularly relevant in our stressful environments nowadays.
 
-Currently President of the Princeton EGA Chapter, Carol enjoyed visiting the [Great Tapestry of Scotland](https://www.greattapestryofscotland.com/) in 2024, and is looking forward to collaborating with the Colonial West Chapter in embroidering the New Jersey Panel for America’s Tapestry.
+Currently President of the Princeton EGA Chapter, Carol enjoyed visiting the [Great Tapestry of Scotland](https://www.greattapestryofscotland.com/) in 2024, and enjoys collaborating with the Colonial West Chapter in embroidering the New Jersey Panel for America’s Tapestry.
