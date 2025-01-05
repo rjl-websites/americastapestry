@@ -2,7 +2,7 @@
 title: Laura Kasowitz
 informal: Laura
 state: Connecticut
-picture: /images/leaders/laura-kasowitz.jpg
+picture: /images/state-directors/laura-kasowitz.jpg
 type: "team/leaders"
 ---
 

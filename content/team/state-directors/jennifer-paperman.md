@@ -2,7 +2,7 @@
 title: Jennifer Paperman
 informal: Jenni
 state: New York
-picture: /images/leaders/jennifer-paperman.png
+picture: /images/state-directors/jennifer-paperman.png
 type: "team/leaders"
 ---
 

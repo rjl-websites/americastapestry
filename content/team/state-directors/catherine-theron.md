@@ -2,7 +2,7 @@
 title: Catherine Theron
 informal: Catherine
 state: Virginia
-picture: /images/leaders/catherine-theron.jpg
+picture: /images/state-directors/catherine-theron.jpg
 type: "team/leaders"
 ---
 

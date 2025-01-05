@@ -2,7 +2,7 @@
 title: Deborah Berger
 informal: Deborah
 state: Georgia
-picture: /images/leaders/deborah-berger.jpg
+picture: /images/state-directors/deborah-berger.jpg
 type: "team/leaders"
 ---
 

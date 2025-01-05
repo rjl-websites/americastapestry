@@ -2,7 +2,7 @@
 title: Carol Prevost
 informal: Carol
 state: New Jersey
-picture: /images/leaders/carol-prevost.jpg
+picture: /images/state-directors/carol-prevost.jpg
 type: "team/leaders"
 ---
 

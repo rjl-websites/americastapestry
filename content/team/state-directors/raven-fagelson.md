@@ -2,7 +2,7 @@
 title: Raven Fagelson
 informal: Raven
 state: Pennsylvania
-picture: /images/leaders/raven-fagelson.jpg
+picture: /images/state-directors/raven-fagelson.jpg
 type: "team/leaders"
 ---
 

@@ -2,7 +2,7 @@
 title: Mary Van Tyne
 informal: Mary
 state: Pennsylvania
-picture: /images/leaders/mary-van-tyne.jpg
+picture: /images/state-directors/mary-van-tyne.jpg
 type: "team/leaders"
 ---
 
