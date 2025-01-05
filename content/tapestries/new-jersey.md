@@ -8,4 +8,4 @@ The state design features the many roles New Jersey women undertook during the R
 
 ![](/images/tapestries/new-jersey-tapestry-main.jpg)
 
-The stitching will be conducted by members of the Colonial West EGA Chapter in partnership with the Princeton EGA Chapter. With their combined artistry and exceptional skill, we cannot wait to see this come together! They will be stitching at St. Andrews Church in Hainesport, approximately 20 miles east from Philadelphia.
+The stitching will be conducted by members of the Colonial West EGA Chapter in partnership with the Princeton EGA Chapter. With their combined artistry and exceptional skill, we cannot wait to see this come together! They are stitching at St. Andrews Church in Hainesport, approximately 20 miles east from Philadelphia.

@@ -10,8 +10,8 @@
     {{ range $stitchers.Pages }}
 
     <div class="pb-4">
-        <h2 class="text-3xl font-bold drop-shadow-md">{{ .Title }}</h2>
-        <div class="pt-2 text-3xl italic">{{ .Params.state }}</div>
+        <h2 class="font-sans text-2xl font-bold uppercase text-slate-600">{{ .Title }}</h2>
+        <div class="pt-2 text-3xl italic text-slate-500">{{ .Params.state }}</div>
         
         <div class="pb-8 prose prose-2xl">
             {{ .Content }}
