@@ -9,12 +9,12 @@
     {{ range $directors.Pages }}
     
     <div>
-        <h2 class="font-sans text-3xl font-bold uppercase text-slate-600">Meet {{ .Params.informal }}</h2>
+        <h2>Meet {{ .Params.informal }}</h2>
         <div class="pt-2 pb-6 text-3xl italic text-slate-500">{{ .Params.state }}</div>
 
         <div class="pb-20">
             <img
-                class="float-left pt-3 pr-6 max-w-96 max-h-96"
+                class="w-full mb-4 rounded-lg shadow-md md:w-1/3 md:float-left md:mt-3 md:mr-8"
                 src="{{ .Params.picture}} "
                 alt="{{ .Title }}"
             />
