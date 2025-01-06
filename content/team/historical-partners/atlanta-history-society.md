@@ -12,4 +12,4 @@ The center's expertise in curating engaging historical exhibits and conducting e
 
 The center has a strong track record of effectively engaging diverse audiences through its innovative and inclusive approaches to history education. The Atlanta History Center is hosting our embroiderers in their state of the art rotunda.
 
-The AHC also facilitates educational programming while hosting embroiderers in their atrium, utilizing their well-established platforms and visitor engagement strategies to reach a broad audience.
+The AHC also facilitates educational programming, utilizing their well-established platforms and visitor engagement strategies to reach a broad audience.

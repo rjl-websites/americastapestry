@@ -8,6 +8,6 @@ The Georgia Tapestry depicts the _Chasseurs Volontaires de Saint-Domingue_, the 
 
 ![Georgia Tapestry](/images/tapestries/georgia-tapestry-main.webp)
 
-The Georgia Panel is being stitched at the [Atlanta History Center](https://www.atlantahistorycenter.com/), a premier museum and research center of the South. The Museum holds one of the largest archives of Civil War artifacts in the U.S. Stitchers will work in the museum's state-of-the-art rotunda, allowing all visitors to engage with both the panel's history as well as the stitchers to learn about their organization.
+The Georgia Panel is being stitched at the [Atlanta History Center](https://www.atlantahistorycenter.com/), a premier museum and research center. The Museum holds one of the largest archives of Civil War artifacts in the United States. Stitchers will work in the museum's state-of-the-art rotunda, allowing all visitors to engage with both the panel's history as well as the stitchers to learn about their organization.
 
-Our Georgia Director is Deborah Berger, EGA National Director of Education. Deborah is mobilizing stitchers from all needlework organizations in the greater Atlanta area to work on the project.
+Our Georgia Director is Deborah Berger, Embroiderer's Guild of America National Director of Education. Deborah is mobilizing stitchers from all needlework organizations in the greater Atlanta area to work on the project.
