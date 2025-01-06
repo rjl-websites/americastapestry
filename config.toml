@@ -1,4 +1,4 @@
-baseURL = 'https://americastapestry.com/'
+baseURL = 'https://americastapestry.netlify.app/'
 languageCode = 'en-us'
 title = "America's Tapestry"
 copyright = "Stefan Romero Design 2025"
