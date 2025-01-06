@@ -5,11 +5,6 @@ const mailgun = require("mailgun-js")({
   url: process.env.MAILGUN_URL,
 });
 
-// Log the apiKey for debugging
-console.log("Mailgun API Key:", process.env.MAILGUN_API_KEY);
-console.log("Mailgun Domain:", process.env.MAILGUN_DOMAIN);
-console.log("Mailgun Url:", process.env.MAILGUN_URL);
-
 exports.handler = async (event) => {
   if (event.httpMethod !== "POST") {
     return { statusCode: 405, body: "Method Not Allowed" };
