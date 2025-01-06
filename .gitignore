@@ -4,3 +4,6 @@ public
 resources
 
 assets/css/output.css
+
+# Local Netlify folder
+.netlify

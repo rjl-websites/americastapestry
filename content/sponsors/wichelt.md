@@ -17,4 +17,3 @@ Company Details:
 
 - Web: [https://www.wichelt.com](https://www.wichelt.com)
 - Email: wichelt@wichelt.com
-- Phone: 1-800-356-9516

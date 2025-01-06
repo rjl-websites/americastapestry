@@ -6,3 +6,9 @@ cleanDestinationDir = true
 
 [params]
 name = 'Stefan Romero Design'
+
+[params.staticman]
+endpoint = "https://americastapestry.netlify.app/v2/entry"
+username = "your_username"
+repository = "your_blog_repo"
+branch = "master"
