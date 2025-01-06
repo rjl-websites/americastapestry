@@ -1,6 +1,6 @@
 ---
 title: Our State Directors
 type: "team/state-directors"
+description: |
+  Creating each panel takes an enormous amount of coordination and attention to detail. Our State Directors are all leaders in the field of needle art and oversee the work of our stitchers.
 ---
-
-Creating each panel takes an enormous amount of coordination and attention to detail. Our State Directors are all leaders in the field of needle art and oversee the work of our stitchers.

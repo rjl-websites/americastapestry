@@ -1,8 +1,8 @@
 ---
 title: Exhibition
+description: |
+  Upon completion, the 13 tapestries will be displayed at a number of historically significant venues throughout the East Coast.
 ---
-
-**Upon completion, the 13 tapestries will be displayed at a number of historically significant venues throughout the East Coast.**
 
 ## Summer 2026
 

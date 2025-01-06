@@ -1,8 +1,7 @@
 {{ define "main" }}
 
-<div class="pt-20 pb-40 px-14">
-    <h1 class="pb-8 text-4xl font-bold">{{ .Title }}</h1>
-    <div class="pb-8 italic prose prose-2xl">{{ .Content }}</div>
+<div class="page-container">
+    {{ partial "page-header.html" . }}
 
     <div class="max-w-3xl py-8">        
 

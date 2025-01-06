@@ -2,33 +2,35 @@
 {{ $sponsors := where .Site.RegularPages "Section" "sponsors" }}
 
 
-<div class="pt-20 pb-40 px-14">
-    <h1 class="pb-8 text-4xl font-bold">{{ .Title }}</h1>
-    <div class="pb-8 italic prose prose-2xl">{{ .Content }}</div>
+<div class="page-container">
+  {{ partial "page-header.html" . }}
 
-    <div class="max-w-3xl py-8">        
+  <div class="container pt-24 mx-auto">
+    <div class="grid grid-cols-1 gap-4 md:grid-cols-3">
 
-        {{ range $sponsors }}
-
-        <div class="flex flex-col items-center pb-16 mb-16 border-b border-gray-200 md:flex-row" id="{{ .Params.id }}">
-            
-            <div class="flex justify-center w-full mb-4 md:w-1/3 md:mb-0">
-              {{ with .Params.logo }}
-                <img src="{{ . }}" alt="{{ $.Title }}" class="h-auto rounded-lg max-w-48">
-              {{ end }}
-            </div>
-            
-            <div class="w-full md:w-2/3 md:pl-8">
-              <h2 class="mb-4 text-3xl font-bold">Meet {{ .Title }} &mdash; Our {{ .Params.role}}</h2>
-              <div class="text-2xl prose">
-                {{ .Content }}
-              </div>
-            </div>
-        </div>
-            
+      {{ range $index, $sponsor := $sponsors }}
+      
+        {{ if ne $index 0 }}
+        <div class="my-8 border-t border-gray-300 col-span-full"></div>
         {{ end }}
 
+        <div class="flex flex-col md:col-span-1" id="{{ .Params.id }}">
+          {{ with .Params.logo }}
+          <img src="{{ . }}" alt="Description" class="object-cover w-64 h-auto">
+          {{ end }}
+        </div>
+        
+        <div class="flex flex-col justify-start md:col-span-2">
+          <h2 class="mb-4 text-3xl font-bold">Meet {{ .Title }} &mdash; Our {{ .Params.role}}</h2>
+          <div class="text-2xl prose">
+            {{ .Content }}
+          </div>
+        </div>
+
+      {{ end }}
+
     </div>
+  </div>
 </div>
 
 {{ end }}

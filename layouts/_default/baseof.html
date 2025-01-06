@@ -1,3 +1,5 @@
+{{ $style := resources.Get "css/output.css" }}
+
 <!doctype html>
 <html class="font-serif">
     <head>
@@ -5,15 +7,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>{{ .Page.Title }}</title>
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
-        {{ $style := resources.Get "css/output.css" }}
         <link rel="stylesheet" href="{{ $style.Permalink }}" />
     </head>
 
-    <body>
+    <body class="flex flex-col min-h-screen">
         <header class="relative inset-x-0 top-0 z-50">
             {{ partial "navbar.html" . }}
         </header>
-        {{ block "main" . }} {{ end }} {{ partial "footer.html" . }}
+        
+        <main class="flex-grow">
+        {{ block "main" . }} {{ end }} 
+        </main>
+        
+        {{ partial "footer.html" . }}
         {{ $mobileMenu := resources.Get "js/mobileMenu.js" | minify | fingerprint }}
         <script src="{{ $mobileMenu.RelPermalink }}" integrity="{{ $mobileMenu.Data.Integrity }}"></script>
     </body>

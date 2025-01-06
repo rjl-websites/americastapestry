@@ -1,11 +1,23 @@
 {{ define "main" }} 
 
 
-<div class="pt-20 pb-40 px-14">
-    <h1 class="pb-8 text-4xl font-bold">{{ .Title }}</h1>
-    <div class="pb-8 prose prose-2xl">{{ .Content }}</div>
+<div class="page-container">
+    {{ partial "page-header.html" . }}
 
+    <div class="flex flex-col md:flex-row">
 
+        <div class="flex-grow">
+            <div class="text-2xl">Contact us at:</div> 
+            <div class="text-2xl font-semibold text-blue-600">americastapestry@gmail.com</div>
+        </div>
+
+        <img
+            class="object-cover w-full h-full mt-8 md:w-72 md:h-72 drop-shadow-lg"
+            src="/images/contact/letter.png"
+            alt="post bag"
+            />
+        
+    </div>
 </div>
 
 {{ end }}

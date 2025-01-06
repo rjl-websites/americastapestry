@@ -4,7 +4,13 @@
 @tailwind utilities;
 
 @layer base {
-    html {
-        font-family: "EB Garamond", Georgia, serif;
-    }
+  html {
+    font-family: "EB Garamond", Georgia, serif;
+  }
+}
+
+@layer components {
+  .page-container {
+    @apply px-6 pt-8 pb-8 md:pb-40 md:pt-20 md:px-14;
+  }
 }

@@ -2,10 +2,9 @@
 
 {{ $stitchers := .Site.GetPage "section" "team/stitchers" }}
 
-<div class="pt-20 pb-40 px-14">
+<div class="page-container">
 
-    <h1 class="pb-8 text-4xl font-bold">{{ .Title }}</h1>
-    <div class="pb-8 italic prose prose-2xl">{{ .Content }}</div>
+    {{ partial "page-header.html" . }}
 
     {{ range $stitchers.Pages }}
 

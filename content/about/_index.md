@@ -1,8 +1,7 @@
 ---
 title: About America's Tapestry
+description: Celebrating America’s 250th Anniversary.
 ---
-
-_Celebrating America’s 250th Anniversary_
 
 ![](/images/about/about-us.png)
 
