@@ -17,9 +17,28 @@
         </div>
         <div class="w-full pt-12">
             <div class="pb-4 font-sans text-2xl font-semibold">Contact us at:</div> 
-            <div class="text-3xl font-semibold text-blue-600">hello@americastapestry.com</div>
+            <div class="text-3xl font-semibold text-blue-600 hover:underline">
+                {{ partial "contact/email.html" . }}
+                <a href="#" id="email-link"></a>
+
+            </div>
         </div>
     </div>
 </div>
 
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const emailLink = document.getElementById('email-link');
+      const email = getEmail();
+      const subject = "Website Inquiry";
+      const body = "Hello, I found your website and I have a question.";
+      emailLink.href = `mailto:${getEmail()}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+      emailLink.textContent = email;
+    });
+</script>
+
 {{ end }}
+
+

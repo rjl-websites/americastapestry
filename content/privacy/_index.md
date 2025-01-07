@@ -21,6 +21,6 @@ You’re in control. If you decide you no longer want to receive our newsletter,
 
 ## Questions?
 
-If you have any questions about this policy, feel free to contact us. We’re here to help!
+If you have any questions about this policy, feel free to [contact us](/contact). We’re here to help!
 
 _Remember, by using our website and subscribing to our newsletter, you’re agreeing to this privacy policy. Thanks for trusting us with your email!_
