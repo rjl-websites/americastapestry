@@ -1,0 +1,18 @@
+<!-- 
+To use: 
+{{ partial "image-with-caption.html" (dict "image" "/path/to/your/image.jpg" "alt" "Your image description") }}
+-->
+
+{{ $image := .image }}
+{{ $alt := .alt }}
+
+<figure class="max-w-lg mx-auto">
+  <img
+    src="{{ $image }}"
+    alt="{{ $alt }}"
+    class="w-full h-auto rounded-lg shadow-md"
+  >
+  <figcaption class="mt-2 text-sm text-center text-gray-500">
+    {{ $alt }}
+  </figcaption>
+</figure>

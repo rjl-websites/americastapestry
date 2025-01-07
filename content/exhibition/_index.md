@@ -8,7 +8,7 @@ description: |
 
 _America's Tapestry_ will make its debut at the newly renovated [Muscarelle Museum of Art](https://muscarelle.wm.edu/) on the [William & Mary](https://www.wm.edu/) campus. The exhibition will be coordinated with semiquincentennial programming at [Colonial Williamsburg](https://www.colonialwilliamsburg.org) and throughout Virginia's [Historic Triangle](https://va250.org).
 
-![Interior - Muscarelle Museum of art](/images/exhibition/muscarelle-interior.jpg)
+![Interior - Muscarelle Museum of Art](/images/exhibition/muscarelle-interior.jpg)
 
 ---
 
@@ -34,8 +34,4 @@ Don't miss out on additional exhibition information!
 
 ![Connecticut Old State House](/images/exhibition/connecticut-old-state-house.jpg)
 
-_Connecticut Old State House_
-
 ![New Hampshire Historical Society](/images/exhibition/new-hampshire-historical-society.jpg)
-
-_New Hampshire Historical Society_
