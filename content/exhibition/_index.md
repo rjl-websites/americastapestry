@@ -30,7 +30,7 @@ The Tapestry will visit the Arts Complex at [John W. Rea House](https://www.pcar
 
 ## Spring 2027
 
-Don't miss out on additional exhibition information!
+Don't miss out on additional exhibition information! Sign up for [our newsletter](/contact).
 
 ![Connecticut Old State House](/images/exhibition/connecticut-old-state-house.jpg)
 
