@@ -6,9 +6,7 @@ section1: |
 section2: |
   The panels are designed by the
   <em>America's Tapestry</em> <a class="underline hover:text-blue-800" href="/team">creative team</a> in
-  collaboration with historical organizations from each of the
-  original thirteen colonies. Needleworkers within each state are
-  creating the embroidery between 2025 and 2026. The Tapestry will be displayed in prominent gallery spaces in 2026 and 2027.
+  collaboration with <a class="underline hover:text-blue-800" href="/team/historical-partners">historical organizations</a> from each of the original thirteen colonies. <a class="underline hover:text-blue-800" href="/team/stitchers">Needleworkers</a> within each state, led by our <a class="underline hover:text-blue-800" href="/team/state-directors">state directors</a>, are creating the embroidery between 2025 and 2026. The Tapestry will be <a class="underline hover:text-blue-800" href="/exhibition">exhibited</a> in prominent gallery spaces in 2026 and 2027.
 section3: |
   <em>America's Tapestry</em> is commited to
   fostering inclusive, collaborative partnerships throughout the 13

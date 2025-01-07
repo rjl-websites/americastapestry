@@ -558,6 +558,7 @@ video {
 
 html {
   font-family: "EB Garamond", Georgia, serif;
+  scroll-behavior: smooth !important;
 }
 
 .container{
@@ -1597,16 +1598,12 @@ h2{
   width: 10rem;
 }
 
-.w-64{
-  width: 16rem;
+.w-96{
+  width: 24rem;
 }
 
 .w-full{
   width: 100%;
-}
-
-.w-96{
-  width: 24rem;
 }
 
 .max-w-3xl{
@@ -1700,6 +1697,10 @@ h2{
 
 .overflow-hidden{
   overflow: hidden;
+}
+
+.scroll-smooth{
+  scroll-behavior: smooth;
 }
 
 .rounded-lg{

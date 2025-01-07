@@ -1,7 +1,7 @@
 {{ $style := resources.Get "css/output.css" }}
 
 <!doctype html>
-<html class="font-serif">
+<html lang="en" class="font-serif scroll-smooth">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -23,7 +23,6 @@
         
         {{ $mobileMenu := resources.Get "js/mobileMenu.js" | minify | fingerprint }}
         <script src="{{ $mobileMenu.RelPermalink }}" integrity="{{ $mobileMenu.Data.Integrity }}"></script>
-
         <!-- MailerLite Universal -->
         <script>
             (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
