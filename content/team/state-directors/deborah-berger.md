@@ -1,5 +1,6 @@
 ---
 title: Deborah Berger
+id: debora-berger
 informal: Deborah
 state: Georgia
 picture: /images/state-directors/deborah-berger.jpg

@@ -1,5 +1,6 @@
 ---
 title: The Embroiderers’ Guild of America
+id: ega
 state:
 picture:
 website: https://egausa.org/

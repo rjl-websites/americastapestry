@@ -8,7 +8,7 @@
 
     {{ range $partners.Pages }}
 
-<div>
+    <div id="{{ .Params.id }}">
         <h2>{{ .Title }}</h2>
         <div class="pt-2 pb-6 text-3xl italic text-slate-500">{{ .Params.state }}</div>
 
@@ -29,9 +29,7 @@
             <hr class="mt-20 border-t border-gray-300">
 
         </div>
-
     </div>
-
 
     {{ end }}
 

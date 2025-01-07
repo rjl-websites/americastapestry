@@ -1,5 +1,6 @@
 ---
 title: Fraunces Tavern Museum
+id: fraunces-tavern-museum
 state: New York
 picture: /images/historical-partners/new-york-fraunces-tavern.jpeg
 website: https://www.frauncestavernmuseum.org

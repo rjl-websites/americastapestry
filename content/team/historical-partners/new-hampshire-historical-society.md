@@ -1,5 +1,6 @@
 ---
 title: New Hampshire Historical Society
+id: new-hampshire-historical-society
 state: New Hampshire
 picture: /images/historical-partners/new-hampshire-historical-society.jpg
 website: https://www.nhhistory.org

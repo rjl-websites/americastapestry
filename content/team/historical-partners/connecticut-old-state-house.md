@@ -1,5 +1,6 @@
 ---
 title: Connecticut Old State House
+id: connecticut-old-state-house
 state: Connecticut
 picture: /images/historical-partners/connecticut-old-state-house.jpeg
 website: https://wp.cga.ct.gov/osh/

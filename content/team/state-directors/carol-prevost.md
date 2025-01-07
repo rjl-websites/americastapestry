@@ -1,5 +1,6 @@
 ---
 title: Carol Prevost
+id: carol-prevost
 informal: Carol
 state: New Jersey
 picture: /images/state-directors/carol-prevost.jpg

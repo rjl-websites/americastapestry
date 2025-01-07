@@ -1,5 +1,6 @@
 ---
 title: Laura Kasowitz
+id: laura-kasowitz
 informal: Laura
 state: Connecticut
 picture: /images/state-directors/laura-kasowitz.jpg

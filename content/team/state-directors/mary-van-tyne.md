@@ -1,5 +1,6 @@
 ---
 title: Mary Van Tyne
+id: mary-van-tyne
 informal: Mary
 state: Pennsylvania
 picture: /images/state-directors/mary-van-tyne.jpg

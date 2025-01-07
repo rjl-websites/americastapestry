@@ -1,5 +1,6 @@
 ---
-title: Atlanta History Society
+title: Atlanta History Center
+id: atlanta-history-center
 state: Georgia
 picture: /images/historical-partners/georgia-atlanta-history-society.jpeg
 website: https://www.atlantahistorycenter.com

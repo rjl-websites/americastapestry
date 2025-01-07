@@ -1,5 +1,6 @@
 ---
 title: Rhode Island Historical Society
+id: rhode-island-historical-society
 state: Rhode Island
 picture: /images/historical-partners/rhode-island-historical-society.jpeg
 website: https://www.rihs.org

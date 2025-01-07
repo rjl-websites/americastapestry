@@ -1,5 +1,6 @@
 ---
 title: William & Mary
+id: william-and-mary
 state: Virginia
 picture: /images/historical-partners/william-mary.jpg
 website: https://www.wm.edu

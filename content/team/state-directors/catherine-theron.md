@@ -1,5 +1,6 @@
 ---
 title: Catherine Theron
+id: catherine-theron
 informal: Catherine
 state: Virginia
 picture: /images/state-directors/catherine-theron.jpg

@@ -1,5 +1,6 @@
 ---
 title: Coastal Heritage Society of Savannah
+id: coastal-heritage-society-of-savannah
 state: Georgia
 picture: /images/historical-partners/CHS.jpeg
 website: https://chsgeorgia.org/

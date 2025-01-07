@@ -1,5 +1,6 @@
 ---
 title: Jennifer Paperman
+id: jennifer-paperman
 informal: Jenni
 state: New York
 picture: /images/state-directors/jennifer-paperman.png
