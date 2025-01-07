@@ -20,10 +20,15 @@
         </main>
         
         {{ partial "footer.html" . }}
+        
         {{ $mobileMenu := resources.Get "js/mobileMenu.js" | minify | fingerprint }}
         <script src="{{ $mobileMenu.RelPermalink }}" integrity="{{ $mobileMenu.Data.Integrity }}"></script>
-        {{ $script := resources.Get "js/contact-form.js"  }}
-        <script src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}"></script>
+
+        {{ $contactForm := resources.Get "js/contact-form.js"  }}
+        <script src="{{ $contactForm.RelPermalink }}" integrity="{{ $contactForm.Data.Integrity }}"></script>
+        
+        {{ $subscribeForm := resources.Get "js/subscribe-form.js"  }}
+        <script src="{{ $subscribeForm.RelPermalink }}" integrity="{{ $subscribeForm.Data.Integrity }}"></script>
 
     </body>
 </html>
