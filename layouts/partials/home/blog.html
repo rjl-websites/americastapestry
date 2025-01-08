@@ -1,28 +1,28 @@
-<section class="container pt-20 mx-auto px-14">
+<section class="container mx-auto mt-16 md:mb-16">
     
-  <h2 class="mb-12 text-5xl font-bold drop-shadow-md">
-        From our blog:
-    </h2>
+  <h2 class="my-4 font-serif text-2xl font-bold text-center md:my-12 md:text-5xl">
+        From our blog
+  </h2>
     
-    <div class="grid grid-cols-1 gap-6 md:grid-cols-3">
-      {{ range first 3 (where .Site.RegularPages "Type" "blog") }}
-        
-      <article class="overflow-hidden bg-red-800 rounded-lg shadow-md dark:bg-red-800">
-          
-        <div class="p-6">
-            <h2 class="mb-2 font-sans text-xl font-semibold">
-              <a href="{{ .Permalink }}" class="text-white dark:text-white hover:underline">{{ .Title }}</a>
-            </h2>
-            <p class="mb-4 text-sm text-gray-100 dark:text-gray-300">{{ .Date.Format "January 2, 2006" }}</p>
-            <p class="text-gray-200"><em>{{ .Summary }}</em></p>
-            <div class="pt-8">
-              <a href="{{ .Permalink }}" class="text-white dark:text-white hover:underline">Read more <span aria-hidden="true">→</span></a>
-            </div>
-          </div>
-        
-        </article>
+  <div class="grid grid-cols-1 gap-6 md:grid-cols-3">
+    {{ range first 3 (where .Site.RegularPages "Type" "blog") }}
       
-        {{ end }}
-    </div>
+    <article class="overflow-hidden bg-red-800 rounded-lg shadow-md dark:bg-red-800">
+        
+      <div class="p-6">
+          <h2 class="mb-2 font-sans text-xl font-semibold">
+            <a href="{{ .Permalink }}" class="text-white dark:text-white hover:underline">{{ .Title }}</a>
+          </h2>
+          <p class="mb-4 text-sm text-gray-100 dark:text-gray-300">{{ .Date.Format "January 2, 2006" }}</p>
+          <p class="text-gray-200"><em>{{ .Summary }}</em></p>
+          <div class="pt-8">
+            <a href="{{ .Permalink }}" class="text-white dark:text-white hover:underline">Read more <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+      
+      </article>
+    
+      {{ end }}
+  </div>
   
-  </section>
+</section>

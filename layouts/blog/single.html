@@ -1,14 +1,12 @@
 {{ define "main" }}
 
-<div class="pt-20 pb-20 px-14">
-
-    <div class="pb-10 text-3xl text-slate-500 bold">Blog posting</div>
+<div class="pb-20">
     
-    <div class="pb-2 text-2xl text-slate-500">{{ .Date.Format "January 2, 2006" }}</div>
-    <h1 class="pb-12 text-4xl font-bold">{{ .Params.Title }}</h1>
+    <div class="pb-2 font-sans md:text-1xl text-slate-500">{{ .Date.Format "January 2, 2006" }}</div>
+    <h2 class="pb-4 font-serif font-bold md:pb-12 text-1xl md:text-4xl">{{ .Params.Title }}</h2>
     
-    <div class="prose prose-2xl">
-        <div class="pb-3 text-4xl italic">{{ .Params.summary }}.</div>
+    <div class="prose md:prose-2xl">
+        <div class="pb-3 text-2xl font-medium text-red-900 md:text-3xl">{{ .Params.summary }}</div>
 
         {{ .Content }} 
     </div>

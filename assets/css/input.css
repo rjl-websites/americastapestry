@@ -12,7 +12,7 @@
 
 @layer components {
   .page-container {
-    @apply px-6 pt-8 pb-8 md:pb-40 md:pt-10 md:px-14;
+    @apply px-8 pb-8 md:px-32 md:pb-40 pt-8;
   }
   h2 {
     @apply font-[Lato] text-3xl font-medium;

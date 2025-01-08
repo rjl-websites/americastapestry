@@ -1,12 +1,7 @@
 {{ define "main" }} 
 
+{{ partial "page-header.html" . }}
 
-<div class="page-container">
-    {{ partial "page-header.html" . }}
-    
-    <div class="pb-8 prose prose-2xl">{{ .Content }}</div>
-
-
-</div>
+<div class="pb-8 prose prose-2xl">{{ .Content }}</div>
 
 {{ end }}

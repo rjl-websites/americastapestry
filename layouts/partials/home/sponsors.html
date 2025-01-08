@@ -1,15 +1,15 @@
 {{ $sponsors := where .Site.RegularPages "Section" "sponsors" }}
 
-<section class="py-12 mt-24 bg-gray-200 md:py-24">
-  <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-    <h2 class="mb-8 text-3xl font-extrabold text-center text-gray-900">Our Sponsors</h2>
-    
-    <div class="grid grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-4 place-items-center">
-      {{ range $sponsors }}
-      <a href="/sponsors#{{ .Params.id }}" class="transition-duration-300">
-        <img src="{{ .Params.logo }}" alt="{{ .Params.name }}" class="object-contain max-w-full max-h-24 grayscale hover:grayscale-0">
-      </a>
-      {{ end }}
-    </div>
+<section class="px-16 pt-8 pb-8 mt-16 -mx-32 bg-gray-100 md:pb-16">
+
+  <h2 class="py-8 font-serif text-3xl font-bold text-center text-gray-900">Our Sponsors</h2>
+  
+  <div class="grid gap-8 grid-rows md:grid-cols-3 lg:grid-cols-4 place-items-center">
+    {{ range $sponsors }}
+    <a href="/sponsors#{{ .Params.id }}" class="transition-duration-300">
+      <img src="{{ .Params.logo }}" alt="{{ .Params.name }}" class="object-contain max-w-full max-h-24 grayscale hover:grayscale-0">
+    </a>
+    {{ end }}
   </div>
+
 </section>

@@ -1,28 +1,25 @@
 {{ define "main" }}
 
-<div class="page-container">
-    {{ partial "page-header.html" . }}
-    
-    {{ partial "team/stefan" }}
+{{ partial "page-header.html" . }}
 
-    <div class="py-2">
-        <a href="{{ ref . "/team/state-directors" }}" 
-           class="text-3xl text-blue-800">
-           Meet our State Directors <span aria-hidden="true">→</span></a>
-    </div>
+{{ partial "team/stefan" }}
 
-    <div class="py-2">
-        <a href="{{ ref . "/team/historical-partners" }}" 
-           class="text-3xl text-blue-800">
-           Meet our Historical Partners <span aria-hidden="true">→</span></a>
-    </div>
-    
-    <div class="py-2">
-        <a href="{{ ref . "/team/stitchers" }}" 
-           class="text-3xl text-blue-800">
-           Meet our Stitchers <span aria-hidden="true">→</span></a>
-    </div>
+<div class="py-2">
+    <a href="{{ ref . "/team/state-directors" }}" 
+        class="text-3xl text-blue-800">
+        Meet our State Directors <span aria-hidden="true">→</span></a>
+</div>
 
+<div class="py-2">
+    <a href="{{ ref . "/team/historical-partners" }}" 
+        class="text-3xl text-blue-800">
+        Meet our Historical Partners <span aria-hidden="true">→</span></a>
+</div>
+
+<div class="py-2">
+    <a href="{{ ref . "/team/stitchers" }}" 
+        class="text-3xl text-blue-800">
+        Meet our Stitchers <span aria-hidden="true">→</span></a>
 </div>
 
 {{ end }}

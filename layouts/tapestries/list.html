@@ -2,21 +2,20 @@
 
 {{ $tapestries := where .Pages "Section" "tapestries" }}
 
-<div class="page-container">
-    {{ partial "page-header.html" . }}
+{{ partial "page-header.html" . }}
 
-    <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-        {{ range $tapestries }}
+<div class="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+    {{ range $tapestries }}
 
-        <a href="{{ .Permalink }}" class="relative overflow-hidden transition-shadow duration-300 rounded-lg shadow-md aspect-square hover:shadow-xl">
-            <div class="absolute inset-0 bg-center bg-cover" style="background-image: url('{{ .Params.thumbnail}}');"></div>
-            <div class="absolute bottom-0 right-0 p-4 bg-black bg-opacity-50">
-              <p class="font-semibold text-white">{{ .Title }}</p>
-            </div>
-          </a>
+    <a href="{{ .Permalink }}" class="relative overflow-hidden transition-shadow duration-300 rounded-lg shadow-md aspect-square hover:shadow-xl">
+        <div class="absolute inset-0 bg-center bg-cover" style="background-image: url('{{ .Params.thumbnail}}');"></div>
+        <div class="absolute bottom-0 right-0 p-4 bg-black bg-opacity-50">
+          <p class="font-semibold text-white">{{ .Title }}</p>
+        </div>
+      </a>
 
-        {{ end }}
-    </div>
+    {{ end }}
 </div>
+
 
 {{ end }}

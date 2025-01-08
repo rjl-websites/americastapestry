@@ -10,18 +10,23 @@
         <link rel="stylesheet" href="{{ $style.RelPermalink | relURL }}">
     </head>
 
-    <body class="flex flex-col min-h-screen 
-            {{ .Params.background_color | default "bg-white" }}">
-        <header class="relative inset-x-0 top-0 z-50">
+    <body class="flex flex-col min-h-screen {{ .Params.background_color | default "bg-white" }}">
+
+        <header class="fixed inset-x-0 top-0 z-50">
             {{ partial "navbar.html" . }}
-            {{ partial "breadcrumbs.html" . }}
         </header>
         
-        <main class="flex-grow">
-        {{ block "main" . }} {{ end }} 
+        <main class="flex-grow w-full">
+            {{ partial "breadcrumbs.html" . }}
+            
+            <div class="page-container">
+                {{ block "main" . }} {{ end }} 
+            </div>
         </main>
         
-        {{ partial "footer.html" . }}
+        <footer class="w-full bg-gray-900">
+            {{ partial "footer.html" . }}
+        </footer>
         
         {{ $mobileMenu := resources.Get "js/mobileMenu.js" | minify | fingerprint }}
         <script src="{{ $mobileMenu.RelPermalink }}" integrity="{{ $mobileMenu.Data.Integrity }}"></script>
