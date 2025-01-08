@@ -2,6 +2,7 @@
 title: Georgia
 summary: Haitian soldiers fighting for America’s freedom
 thumbnail: /images/tapestries/georgia-tapestry-thumbnail.png
+background_color: "bg-slate-900"
 ---
 
 The Georgia Tapestry depicts the _Chasseurs Volontaires de Saint-Domingue_, the Creole militia unit that participated in the Battle of Savannah in 1779. The unit was made up of both enslaved and free blacks from Saint-Domingue who fought either for income or for their freedom. The Battle of Savannah was one of the most diverse battles of the Revolution, featuring French, Creole, Native American, English, Scottish, and Colonial forces. This panel was designed in collaboration with the Coastal Heritage Society of Savannah.

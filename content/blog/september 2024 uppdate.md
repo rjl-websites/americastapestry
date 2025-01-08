@@ -1,5 +1,5 @@
 ---
-title: "September Update"
+title: "September 2024 Update"
 summary: Expanding our talented team of collaborators and stitchers, and funding.
 date: "2024-09-04T10:51:26-05:00"
 draft: false

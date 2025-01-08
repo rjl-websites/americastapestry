@@ -2,6 +2,7 @@
 title: New Jersey
 summary: Women fundraising for America's freedom
 thumbnail: /images/tapestries/new-jersey-tapestry-thumbnail.jpg
+background_color: "bg-slate-900"
 ---
 
 The state design features the many roles New Jersey women undertook during the Revolution, including raising a phenomenal $15,000 for the patriot cause. Our historical advisor, [Passaic County Department of Cultural and Historical Affairs](/team/historical-partners/#dcha), conducted a significant amount of research on the fascinating lives of those living in the Dey Mansion in Passaic County. Famously, the Dey Family hosted Generals Lafayette and Washington at the Mansion in 1780.

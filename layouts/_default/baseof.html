@@ -10,9 +10,11 @@
         <link rel="stylesheet" href="{{ $style.RelPermalink | relURL }}">
     </head>
 
-    <body class="flex flex-col min-h-screen">
+    <body class="flex flex-col min-h-screen 
+            {{ .Params.background_color | default "bg-white" }}">
         <header class="relative inset-x-0 top-0 z-50">
             {{ partial "navbar.html" . }}
+            {{ partial "breadcrumbs.html" . }}
         </header>
         
         <main class="flex-grow">
