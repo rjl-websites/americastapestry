@@ -1,5 +1,5 @@
 <nav class="bg-gray-900">
-    <div class="relative flex items-center justify-between h-16 px-6">
+    <div class="relative flex items-center justify-between h-16 px-6 font-sans">
         <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
             <!-- Mobile menu button-->
             <button
@@ -67,7 +67,7 @@
 
     <!-- Mobile menu, show/hide based on menu state. -->
     <div class="sm:hidden" id="mobile-menu">
-        <div class="px-2 pt-2 pb-3 space-y-1">
+        <div class="px-2 pt-2 pb-3 space-y-1 font-sans">
             {{ range .Site.Data.navigation.main }}
             <a
                 href="{{ .url }}"

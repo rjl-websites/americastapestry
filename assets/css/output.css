@@ -1530,6 +1530,21 @@ h2{
   margin-right: -8rem;
 }
 
+.-mx-4{
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+
+.mx-4{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.mx-16{
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
 .mb-0{
   margin-bottom: 0px;
 }
@@ -1584,6 +1599,18 @@ h2{
 
 .mt-8{
   margin-top: 2rem;
+}
+
+.mb-6{
+  margin-bottom: 1.5rem;
+}
+
+.mb-1{
+  margin-bottom: 0.25rem;
+}
+
+.-ml-5{
+  margin-left: -1.25rem;
 }
 
 .block{
@@ -1805,6 +1832,11 @@ h2{
   border-color: rgb(154 52 18 / var(--tw-border-opacity, 1));
 }
 
+.border-gray-700{
+  --tw-border-opacity: 1;
+  border-color: rgb(55 65 81 / var(--tw-border-opacity, 1));
+}
+
 .bg-black{
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
@@ -1947,6 +1979,11 @@ h2{
 .px-8{
   padding-left: 2rem;
   padding-right: 2rem;
+}
+
+.py-6{
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .pb-10{
@@ -2627,6 +2664,41 @@ h2{
     margin-right: -6rem;
   }
 
+  .md\:mx-16{
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+
+  .md\:my-8{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .md\:my-16{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+
+  .md\:mx-8{
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .md\:-mx-3{
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
+  }
+
+  .md\:-mx-4{
+    margin-left: -1rem;
+    margin-right: -1rem;
+  }
+
+  .md\:-mx-5{
+    margin-left: -1.25rem;
+    margin-right: -1.25rem;
+  }
+
   .md\:mb-16{
     margin-bottom: 4rem;
   }
@@ -2677,6 +2749,14 @@ h2{
 
   .md\:mt-8{
     margin-top: 2rem;
+  }
+
+  .md\:mb-0{
+    margin-bottom: 0px;
+  }
+
+  .md\:mt-32{
+    margin-top: 8rem;
   }
 
   .md\:flex{
@@ -2731,6 +2811,10 @@ h2{
     justify-content: flex-start;
   }
 
+  .md\:justify-center{
+    justify-content: center;
+  }
+
   .md\:p-20{
     padding: 5rem;
   }
@@ -2760,6 +2844,21 @@ h2{
     padding-right: 4rem;
   }
 
+  .md\:px-6{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .md\:py-0{
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .md\:py-10{
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
   .md\:pb-12{
     padding-bottom: 3rem;
   }
@@ -2774,6 +2873,18 @@ h2{
 
   .md\:pt-20{
     padding-top: 5rem;
+  }
+
+  .md\:pt-32{
+    padding-top: 8rem;
+  }
+
+  .md\:pt-10{
+    padding-top: 2.5rem;
+  }
+
+  .md\:pt-4{
+    padding-top: 1rem;
   }
 
   .md\:text-left{
@@ -2804,5 +2915,10 @@ h2{
 @media (min-width: 1024px){
   .lg\:grid-cols-4{
     grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .lg\:px-8{
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 }
