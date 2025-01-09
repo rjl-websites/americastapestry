@@ -11,6 +11,10 @@ When you subscribe to our newsletter, we only collect your email address. We use
 
 We don’t store any of your personal information on our servers. Your email address is the only data we keep, and it’s used exclusively for our newsletter.
 
+## Anonymous Usage Metrics
+
+We collect anonymous website usage metrics to improve our service and user experience. This data does not identify individual users and is used solely for analytical purposes.
+
 ## No Third-Party Sharing
 
 We value your trust. Your information is never sold, rented, or shared with any third parties. It stays between us.
