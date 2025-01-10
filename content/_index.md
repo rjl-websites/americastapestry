@@ -2,17 +2,10 @@
 title: America's Tapestry
 layout: home
 section1: |
-  On the eve of America's 250th Anniversary, <em>America's Tapestry</em> seeks to tell an inclusive story of individuals from our nation's past. Composed of thirteen embroidered panels, this modern interpretation of the Bayeux Tapestry visually narrates unique, untold stories from America’s thirteen colonies.
+  In 2026, Americans will celebrate our country's 250th anniversary. To commemorate this occasion, <em>America's Tapestry</em> weaves together stories from our nation's founding through the medium of embroidery.
 section2: |
-  The panels are designed by the
-  <em>America's Tapestry</em> <a class="underline hover:text-blue-800" href="/team">creative team</a> in
-  collaboration with <a class="underline hover:text-blue-800" href="/team/historical-partners">historical organizations</a> from each of the original thirteen colonies. <a class="underline hover:text-blue-800" href="/team/stitchers">Needleworkers</a> within each state, led by our <a class="underline hover:text-blue-800" href="/team/state-directors">state directors</a>, are creating the embroidery between 2025 and 2026. The Tapestry will be <a class="underline hover:text-blue-800" href="/exhibition">exhibited</a> in prominent gallery spaces in 2026 and 2027.
+  Thirteen embroidered panels have been designed by our <a class="underline hover:text-blue-800" href="/team">creative team</a> in
+  collaboration with <a class="underline hover:text-blue-800" href="/team/historical-partners">historical organizations</a> from each of the original  colonies. <a class="underline hover:text-blue-800" href="/team/stitchers">Embroiderers</a> within each state, led by our <a class="underline hover:text-blue-800" href="/team/state-directors">state directors</a>, are stitching the panels over 18 months. The Tapestry will be <a class="underline hover:text-blue-800" href="/exhibition">exhibited</a> in prominent gallery spaces in 2026 and 2027.
 section3: |
-  <em>America's Tapestry</em> is commited to
-  fostering inclusive, collaborative partnerships throughout the 13
-  states. Historical organizations and cultural centers from New
-  Hampshire to Georgia are developing themes and imagery for each
-  panel. Stitching will take place at heritage centers from 2025
-  to 2026, allowing audiences to visit and engage with this historic
-  work and learn about the practice of needle art.
+  <em>America's Tapestry</em> enriches our understanding of our shared heritage, while promoting the art of American needlework. Through our virtual and in-person programming, visitors can learn about the revolution and engage in the historic practice of needlework.
 ---
