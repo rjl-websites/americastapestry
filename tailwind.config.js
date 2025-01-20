@@ -16,6 +16,9 @@ module.exports = {
         serif: ['"EB Garamond"', ...defaultTheme.fontFamily.serif],
         sans: ["Lato", ...defaultTheme.fontFamily.sans],
       },
+      textShadow: {
+        'outline': '0 0 0.5px black, 0 0 0.5px black, 0 0 0.5px black, 0 0 0.5px black',
+      },
       typography: (theme) => ({
         "2xl": {
           css: {
