@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build-tw": "npx tailwindcss -i ./assets/css/input.css -o ./assets/css/output.css",
+    "build-tw": "npx tailwindcss -i ./assets/css/tailwind.css -o ./assets/css/main.css",
     "watch-tw": "npx tailwindcss -i ./assets/css/main.css -o ./assets/css/style.css -w --minify",
-    "start": "hugo server & npx tailwindcss -i ./assets/css/input.css -o ./assets/css/output.css --watch"
+    "start": "hugo server & npx tailwindcss -i ./assets/css/tailwind.css -o ./assets/css/main.css --watch"
   },
   "keywords": [],
   "author": "",
