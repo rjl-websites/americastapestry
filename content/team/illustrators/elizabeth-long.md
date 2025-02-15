@@ -2,7 +2,7 @@
 title: Elizabeth Long
 id: elizabeth-long
 informal: Elizabeth
-state: Rhode Island
+state: New Hampshire
 picture: /images/illustrators/elizabeth-long.png
 type: "team/illustrators"
 ---

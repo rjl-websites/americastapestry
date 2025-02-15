@@ -2,7 +2,7 @@
 title: Sarah Naidich
 id: sarah-naidich
 informal: Sarah
-state: Rhode Island
+state: Connecticut
 picture: /images/illustrators/sarah-naidich.png
 type: "team/illustrators"
 ---

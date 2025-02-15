@@ -2,7 +2,7 @@
 title: Maggie Weng
 id: maggie-weng
 informal: Maggie
-state: Philadelphia
+state: Pennsylvania
 picture: /images/illustrators/maggie-weng.png
 type: "team/illustrators"
 ---

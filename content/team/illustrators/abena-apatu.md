@@ -1,7 +1,7 @@
 ---
 title: Abena Apatu
 id: abena-apatu
-informal: Abena
+informal: Abena Apatu
 state: Maryland
 picture: /images/illustrators/abena-apatu.png
 type: "team/illustrators"
